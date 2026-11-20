@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Microservices Hexagon Cluster -->
+  <defs>
+    <linearGradient id="msBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="msCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <!-- Connector Lines -->
+  <line x1="64" y1="36" x2="38" y2="76" stroke="#60a5fa" stroke-width="3" stroke-dasharray="4 2"/>
+  <line x1="64" y1="36" x2="90" y2="76" stroke="#60a5fa" stroke-width="3" stroke-dasharray="4 2"/>
+  <line x1="38" y1="76" x2="90" y2="76" stroke="#60a5fa" stroke-width="3" stroke-dasharray="4 2"/>
+  <!-- Top Node -->
+  <polygon points="64,18 80,27 80,45 64,54 48,45 48,27" fill="url(#msBlue)" stroke="#93c5fd" stroke-width="2"/>
+  <circle cx="64" cy="36" r="4" fill="#ffffff"/>
+  <!-- Bottom Left Node -->
+  <polygon points="38,58 54,67 54,85 38,94 22,85 22,67" fill="url(#msCyan)" stroke="#67e8f9" stroke-width="2"/>
+  <circle cx="38" cy="76" r="4" fill="#ffffff"/>
+  <!-- Bottom Right Node -->
+  <polygon points="90,58 106,67 106,85 90,94 74,85 74,67" fill="url(#msCyan)" stroke="#67e8f9" stroke-width="2"/>
+  <circle cx="90" cy="76" r="4" fill="#ffffff"/>
+  <!-- Outer Satellite Nodes -->
+  <circle cx="64" cy="106" r="10" fill="#2563eb" stroke="#93c5fd" stroke-width="2"/>
+  <line x1="38" y1="76" x2="64" y2="106" stroke="#38bdf8" stroke-width="2"/>
+  <line x1="90" y1="76" x2="64" y2="106" stroke="#38bdf8" stroke-width="2"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Apache Kafka Official Logo Shape -->
+  <g fill="#231F20">
+    <!-- Center Left Main Node -->
+    <circle cx="88" cy="30" r="14" fill="#ffffff"/>
+    <circle cx="88" cy="98" r="14" fill="#ffffff"/>
+    <circle cx="40" cy="64" r="16" fill="#ffffff"/>
+    <!-- Connecting paths -->
+    <path d="M40 56 L88 22 L88 38 L40 72 Z" fill="#ffffff"/>
+    <path d="M40 72 L88 106 L88 90 L40 56 Z" fill="#ffffff"/>
+    <circle cx="40" cy="64" r="7" fill="#000000"/>
+    <circle cx="88" cy="30" r="6" fill="#000000"/>
+    <circle cx="88" cy="98" r="6" fill="#000000"/>
+    <!-- Outer Node Line -->
+    <circle cx="106" cy="64" r="12" fill="#38bdf8"/>
+    <path d="M88 30 L106 58 L106 70 L88 98 Z" fill="rgba(56, 189, 248, 0.4)"/>
+    <circle cx="106" cy="64" r="5" fill="#ffffff"/>
+  </g>
+</svg>

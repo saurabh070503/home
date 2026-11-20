@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Spring Security / Shield Icon -->
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6db33f"/>
+      <stop offset="100%" stop-color="#347b2c"/>
+    </linearGradient>
+    <linearGradient id="lockGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d1d5db"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer Shield -->
+  <path d="M64 8 L108 26 C108 72 84 104 64 120 C44 104 20 72 20 26 Z" fill="url(#shieldGrad)" stroke="#8ce258" stroke-width="3"/>
+  <!-- Inner Shield Accent -->
+  <path d="M64 16 L100 31 C100 70 79 98 64 111 C49 98 28 70 28 31 Z" fill="rgba(0,0,0,0.15)"/>
+  <!-- Lock Shackle -->
+  <path d="M50 56 V45 C50 37.268 56.268 31 64 31 C71.732 31 78 37.268 78 45 V56" fill="none" stroke="url(#lockGrad)" stroke-width="7" stroke-linecap="round"/>
+  <!-- Lock Body -->
+  <rect x="44" y="54" width="40" height="34" rx="7" fill="url(#lockGrad)"/>
+  <!-- Keyhole -->
+  <circle cx="64" cy="67" r="4.5" fill="#1f4414"/>
+  <path d="M61.5 67 L66.5 67 L65 79 L63 79 Z" fill="#1f4414"/>
+</svg>
