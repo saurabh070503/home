@@ -2399,14 +2399,17 @@
               <span class="skill-chip"><i class="fab fa-java"></i> Java</span>
               <span class="skill-chip">Spring Boot</span>
               <span class="skill-chip">Microservices</span>
+              <span class="skill-chip">Spring Security</span>
+              <span class="skill-chip">Apache Kafka</span>
               <span class="skill-chip">REST APIs</span>
+              <span class="skill-chip">PostgreSQL / SQL</span>
+              <span class="skill-chip"><i class="fab fa-aws"></i> AWS</span>
               <span class="skill-chip"><i class="fab fa-python"></i> Python</span>
-              <span class="skill-chip">Django</span>
               <span class="skill-chip"><i class="fab fa-react"></i> React</span>
+              <span class="skill-chip">LangChain &amp; GenAI</span>
+              <span class="skill-chip">OpenAI API</span>
               <span class="skill-chip">YOLOv8</span>
-              <span class="skill-chip">TensorFlow</span>
-              <span class="skill-chip">Flask</span>
-              <span class="skill-chip">SQL / Oracle</span>
+              <span class="skill-chip">TensorFlow &amp; PyTorch</span>
               <span class="skill-chip">CI/CD &amp; Git</span>
             </div>
           </div>
@@ -2580,13 +2583,15 @@
         <!-- Filter Buttons -->
         <div class="skills-filter-bar">
           <button class="filter-btn active" data-filter="all">All Skills</button>
-          <button class="filter-btn" data-filter="backend">Backend &amp; Core</button>
+          <button class="filter-btn" data-filter="backend">Backend &amp; Cloud</button>
+          <button class="filter-btn" data-filter="database">Databases &amp; EDA</button>
+          <button class="filter-btn" data-filter="ai">AI, ML &amp; GenAI</button>
+          <button class="filter-btn" data-filter="devops">DevOps &amp; Testing</button>
           <button class="filter-btn" data-filter="frontend">Frontend &amp; UI</button>
-          <button class="filter-btn" data-filter="ai">AI &amp; Data</button>
         </div>
 
         <div class="skills-grid">
-          <!-- Java -->
+          <!-- 1. Java -->
           <div class="skill-card" data-category="backend">
             <div class="skill-icon-frame">
               <img src="java.png" alt="Java" loading="lazy">
@@ -2595,52 +2600,34 @@
             <div class="skill-badge">Core &amp; OOP</div>
           </div>
 
-          <!-- Spring Boot -->
+          <!-- 2. Spring Boot -->
           <div class="skill-card" data-category="backend">
             <div class="skill-icon-frame">
               <img src="springboot.png" alt="Spring Boot" loading="lazy">
             </div>
             <div class="skill-name">Spring Boot</div>
-            <div class="skill-badge">Microservices</div>
+            <div class="skill-badge">Enterprise Framework</div>
           </div>
 
-          <!-- Python -->
-          <div class="skill-card" data-category="backend ai">
+          <!-- 3. Microservices -->
+          <div class="skill-card" data-category="backend">
             <div class="skill-icon-frame">
-              <img src="python.png" alt="Python" loading="lazy">
+              <img src="microservices.svg" alt="Microservices" loading="lazy">
             </div>
-            <div class="skill-name">Python</div>
-            <div class="skill-badge">Scripts &amp; ML</div>
+            <div class="skill-name">Microservices</div>
+            <div class="skill-badge">Distributed Architecture</div>
           </div>
 
-          <!-- Machine Learning -->
-          <div class="skill-card" data-category="ai">
+          <!-- 4. Spring Security & JWT -->
+          <div class="skill-card" data-category="backend">
             <div class="skill-icon-frame">
-              <img src="machinelearning.png" alt="Machine Learning" loading="lazy">
+              <img src="security.svg" alt="Spring Security &amp; JWT" loading="lazy">
             </div>
-            <div class="skill-name">Machine Learning</div>
-            <div class="skill-badge">Algorithms</div>
+            <div class="skill-name">Spring Security</div>
+            <div class="skill-badge">JWT &bull; Auth &bull; RBAC</div>
           </div>
 
-          <!-- Deep Learning -->
-          <div class="skill-card" data-category="ai">
-            <div class="skill-icon-frame">
-              <img src="deeplearning.jpeg" alt="Deep Learning" loading="lazy">
-            </div>
-            <div class="skill-name">Deep Learning</div>
-            <div class="skill-badge">YOLO &amp; Neural Nets</div>
-          </div>
-
-          <!-- UI/UX -->
-          <div class="skill-card" data-category="frontend">
-            <div class="skill-icon-frame">
-              <img src="uiux.jpeg" alt="UI/UX" loading="lazy">
-            </div>
-            <div class="skill-name">UI/UX Design</div>
-            <div class="skill-badge">Figma &amp; Design</div>
-          </div>
-
-          <!-- REST APIs -->
+          <!-- 5. REST APIs -->
           <div class="skill-card" data-category="backend">
             <div class="skill-icon-frame">
               <img src="api.png" alt="REST APIs" loading="lazy">
@@ -2649,7 +2636,223 @@
             <div class="skill-badge">Endpoints &amp; JSON</div>
           </div>
 
-          <!-- React -->
+          <!-- 6. Apache Kafka (Event-Driven Architecture) -->
+          <div class="skill-card" data-category="backend database">
+            <div class="skill-icon-frame">
+              <img src="kafka.svg" alt="Apache Kafka" loading="lazy">
+            </div>
+            <div class="skill-name">Apache Kafka</div>
+            <div class="skill-badge">Event-Driven &bull; EDA</div>
+          </div>
+
+          <!-- 7. RabbitMQ -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-icon-frame">
+              <img src="rabbitmq.svg" alt="RabbitMQ" loading="lazy">
+            </div>
+            <div class="skill-name">RabbitMQ</div>
+            <div class="skill-badge">Message Broker &bull; AMQP</div>
+          </div>
+
+          <!-- 8. PostgreSQL -->
+          <div class="skill-card" data-category="backend database">
+            <div class="skill-icon-frame">
+              <img src="postgres.svg" alt="PostgreSQL" loading="lazy">
+            </div>
+            <div class="skill-name">PostgreSQL</div>
+            <div class="skill-badge">Relational SQL &bull; ACID</div>
+          </div>
+
+          <!-- 9. MySQL -->
+          <div class="skill-card" data-category="backend database">
+            <div class="skill-icon-frame">
+              <img src="mysql.svg" alt="MySQL" loading="lazy">
+            </div>
+            <div class="skill-name">MySQL</div>
+            <div class="skill-badge">RDBMS &bull; Indexing</div>
+          </div>
+
+          <!-- 10. Oracle Database -->
+          <div class="skill-card" data-category="backend database">
+            <div class="skill-icon-frame">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" alt="Oracle DB" loading="lazy">
+            </div>
+            <div class="skill-name">Oracle DB</div>
+            <div class="skill-badge">Enterprise Database</div>
+          </div>
+
+          <!-- 11. Redis -->
+          <div class="skill-card" data-category="backend database">
+            <div class="skill-icon-frame">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" alt="Redis" loading="lazy">
+            </div>
+            <div class="skill-name">Redis</div>
+            <div class="skill-badge">In-Memory &bull; Caching</div>
+          </div>
+
+          <!-- 12. AWS -->
+          <div class="skill-card" data-category="backend devops">
+            <div class="skill-icon-frame">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ2gxaMjCBC9VmfYE1eQda_9X7e1PLPYE52Hpc_xzdcqyogcYk3IC-ayM&s=10" alt="AWS" loading="lazy">
+            </div>
+            <div class="skill-name">AWS</div>
+            <div class="skill-badge">Cloud Services &bull; EC2</div>
+          </div>
+
+          <!-- 13. Git & GitHub -->
+          <div class="skill-card" data-category="devops">
+            <div class="skill-icon-frame">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" loading="lazy">
+            </div>
+            <div class="skill-name">Git</div>
+            <div class="skill-badge">Version Control &bull; CI/CD</div>
+          </div>
+
+          <!-- 14. Maven -->
+          <div class="skill-card" data-category="backend devops">
+            <div class="skill-icon-frame">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg" alt="Maven" loading="lazy">
+            </div>
+            <div class="skill-name">Maven</div>
+            <div class="skill-badge">Build Tools &bull; Packaging</div>
+          </div>
+
+          <!-- 15. JUnit 5 -->
+          <div class="skill-card" data-category="backend devops">
+            <div class="skill-icon-frame">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-original.svg" alt="JUnit 5" loading="lazy">
+            </div>
+            <div class="skill-name">JUnit 5</div>
+            <div class="skill-badge">Unit &amp; Integration Tests</div>
+          </div>
+
+          <!-- 16. Postman -->
+          <div class="skill-card" data-category="backend devops">
+            <div class="skill-icon-frame">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="Postman" loading="lazy">
+            </div>
+            <div class="skill-name">Postman</div>
+            <div class="skill-badge">API Testing &bull; Automation</div>
+          </div>
+
+          <!-- 17. Python -->
+          <div class="skill-card" data-category="backend ai">
+            <div class="skill-icon-frame">
+              <img src="python.png" alt="Python" loading="lazy">
+            </div>
+            <div class="skill-name">Python</div>
+            <div class="skill-badge">Scripts &amp; ML</div>
+          </div>
+
+          <!-- 18. Machine Learning -->
+          <div class="skill-card" data-category="ai">
+            <div class="skill-icon-frame">
+              <img src="machinelearning.png" alt="Machine Learning" loading="lazy">
+            </div>
+            <div class="skill-name">Machine Learning</div>
+            <div class="skill-badge">Algorithms &bull; Models</div>
+          </div>
+
+          <!-- 19. Scikit-learn -->
+          <div class="skill-card" data-category="ai">
+            <div class="skill-icon-frame">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit-learn" loading="lazy">
+            </div>
+            <div class="skill-name">Scikit-learn</div>
+            <div class="skill-badge">Predictive Modeling</div>
+          </div>
+
+          <!-- 20. Deep Learning -->
+          <div class="skill-card" data-category="ai">
+            <div class="skill-icon-frame">
+              <img src="deeplearning.jpeg" alt="Deep Learning" loading="lazy">
+            </div>
+            <div class="skill-name">Deep Learning</div>
+            <div class="skill-badge">CNN &bull; RNN</div>
+          </div>
+
+          <!-- 21. TensorFlow -->
+          <div class="skill-card" data-category="ai">
+            <div class="skill-icon-frame">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" loading="lazy">
+            </div>
+            <div class="skill-name">TensorFlow</div>
+            <div class="skill-badge">Deep Neural Networks</div>
+          </div>
+
+          <!-- 22. PyTorch -->
+          <div class="skill-card" data-category="ai">
+            <div class="skill-icon-frame">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch" loading="lazy">
+            </div>
+            <div class="skill-name">PyTorch</div>
+            <div class="skill-badge">Tensors &bull; Neural Nets</div>
+          </div>
+
+          <!-- 23. Computer Vision -->
+          <div class="skill-card" data-category="ai">
+            <div class="skill-icon-frame">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" alt="Computer Vision" loading="lazy">
+            </div>
+            <div class="skill-name">Computer Vision</div>
+            <div class="skill-badge">OpenCV &bull; YOLOv8</div>
+          </div>
+
+          <!-- 24. NLP -->
+          <div class="skill-card" data-category="ai">
+            <div class="skill-icon-frame">
+              <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" loading="lazy">
+            </div>
+            <div class="skill-name">NLP</div>
+            <div class="skill-badge">Hugging Face &bull; LLMs</div>
+          </div>
+
+          <!-- 25. Generative AI -->
+          <div class="skill-card" data-category="ai">
+            <div class="skill-icon-frame">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/networkx/networkx-original.svg" alt="Generative AI" loading="lazy">
+            </div>
+            <div class="skill-name">Generative AI</div>
+            <div class="skill-badge">LLMs &bull; Prompt Eng &bull; RAG</div>
+          </div>
+
+          <!-- 26. LangChain -->
+          <div class="skill-card" data-category="ai">
+            <div class="skill-icon-frame">
+              <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/langchain-color.png" alt="LangChain" loading="lazy">
+            </div>
+            <div class="skill-name">LangChain</div>
+            <div class="skill-badge">AI Framework &bull; RAG Chains</div>
+          </div>
+
+          <!-- 27. Model APIs -->
+          <div class="skill-card" data-category="ai">
+            <div class="skill-icon-frame">
+              <img src="https://images.seeklogo.com/logo-png/33/1/open-ai-logo-png_seeklogo-332714.png" alt="OpenAI API" loading="lazy">
+            </div>
+            <div class="skill-name">Model APIs</div>
+            <div class="skill-badge">OpenAI API &bull; GPT</div>
+          </div>
+
+          <!-- 28. Data Processing -->
+          <div class="skill-card" data-category="ai backend">
+            <div class="skill-icon-frame">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="NumPy and Pandas" loading="lazy">
+            </div>
+            <div class="skill-name">Data Processing</div>
+            <div class="skill-badge">NumPy &bull; Pandas</div>
+          </div>
+
+          <!-- 29. UI/UX Design -->
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-icon-frame">
+              <img src="uiux.jpeg" alt="UI/UX" loading="lazy">
+            </div>
+            <div class="skill-name">UI/UX Design</div>
+            <div class="skill-badge">Figma &amp; Design</div>
+          </div>
+
+          <!-- 30. React -->
           <div class="skill-card" data-category="frontend">
             <div class="skill-icon-frame">
               <img src="react.png" alt="React" loading="lazy">
@@ -2658,13 +2861,13 @@
             <div class="skill-badge">SPA &amp; Hooks</div>
           </div>
 
-          <!-- Full Stack -->
+          <!-- 31. Full Stack -->
           <div class="skill-card" data-category="backend frontend">
             <div class="skill-icon-frame">
               <img src="fullstack.png" alt="Full Stack" loading="lazy">
             </div>
             <div class="skill-name">Full Stack</div>
-            <div class="skill-badge">End-to-End</div>
+            <div class="skill-badge">End-to-End Architecture</div>
           </div>
         </div>
       </div>
